@@ -5,11 +5,9 @@ public class Server {
 
     private List<Task> taskList = new ArrayList<>();
     private int rupm; //Resource Units per minute
-    private int position;
 
-    public Server(int rupm, int position) {
+    public Server(int rupm) {
         this.rupm = rupm;
-        this.position = position;
     }
 
     public boolean canAddTask(Task t) {
@@ -31,10 +29,6 @@ public class Server {
 
     public int getRupm() {
         return rupm;
-    }
-
-    public int getPosition() {
-        return position;
     }
 
     @Override
