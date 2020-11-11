@@ -7,7 +7,7 @@ class Q1Main {
         System.out.println("Input:");
         int num = Integer.parseInt(sn.nextLine());
 
-        System.out.println("\nOutput:");
+        System.out.println("\nOutput: ");
         for(int i=1; i<=num; i++) {
             for(int j=1; j<=(num - i)*2; j++)
                 System.out.print(" ");
